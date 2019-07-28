@@ -11,7 +11,7 @@ Practical Example-
 
 Let's say there are X parties/people contesting in election, according to the number of eligible voters, for each party N different hash keys will be generated and stored. The load will get balanced in this way, also with so many different (particularly X * N) vote countering columns, one cannot tamper the vote in favour of his party as he will not be able to know which column corresponds to which party vote count. At last, all the X * N counters will be re-hashed to count the vote. In this way, there will be no need to use paper ballots and time will also be saved as the vote count can be accessed as soon as the election ends.
 
-NOTE: - We can implement this whole system on an online platform so that people need not to come to booth to cast their vote but in a country like India, people can be threatened to vote to a particular party by many means and powerful people will stand on head of voters to vote in favour of them in online system. Also, online system will create possibilities of bribing and will give unethical benefits to some individual.
+NOTE: - In a country like India where ethical barriers such as bribing and threatening fall in way, if these can be ignored we can easily extend this functionality to an individual level so that people need not to come to booth to caste their vote.
 
 How users can get started with the project?
 
