@@ -14,8 +14,7 @@ the person will cast his vote in a system. A system (end to end encrypted) will 
 our main focus is to ensure that the vote count should not be tampered. So for that, we are using the concept of hashing along with blockchain
 mechanism to ensure that. Every user id i.e. enrollment/employment number will be hashed with a randomly generated hash function.
 With an another hash function, the aadhar number will be hashed so that the details are safe. A database (based on blockchain mechanism) 
-will be created. It will constitute the hashed id, hashed aadhar number and a column whether the time stamp of the voter(the time of vote or not. Let's say there are
-X parties/people contesting in election, according to the number of eligible voters, for each party N different hash keys will be generated and stored.
+will be created. It will constitute the hashed id, hashed aadhar number and the time stamp of the voter(the time at which voter casted vote). Let's say there are X parties/people contesting in election, according to the number of eligible voters, for each party N different hash keys will be generated and stored.
 The load will get balanced in this way, also with so many different (particulary X*N) vote countering columns, one cannot tamper the vote in favour of
 his party as he will not be able to know which column corresponds to which party vote count. At last, all the X*N counters will be re-hashed to count the vote.
 In this way, there will be no need to use paper ballots and time will also be saved as the vote count can be accessed as soon as the election ends.
