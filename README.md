@@ -22,6 +22,7 @@ What datasets are we using?
 As such we will not have the access to any dataset whether it be Aadhar number data provided by government or the voter database provided by the institute. We will only be retrieving the data at the time of a particular request to the REST API without having access to whole system database so that private information doesn't get compromised. Also, we are eliminating the need to update the data every year. 
 
 The technologies involved-
+
 We are planning to build a Web App with an HTML, CSS, JavaScript based User Interface.
 We will be using JavaScript as the programming language to interact with the Azure Blockchain Workbench REST API. As HTTP requests to the REST API are already protected with Azure Active Directory (Azure AD), to make an authenticated request to the REST APIs, client code requires authentication with valid credentials (In our case the biometric data) before you can call the API. 
 Information about users will be provided using database views in the Blockchain Workbench SQL DB.
