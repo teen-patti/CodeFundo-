@@ -1,5 +1,5 @@
 # CodeFundo-
-designing implementing a fool proof voting system for college elections
+
 What are we planning to build ?
 
 So,basically in most of the colleges/educational institutions in India elections are conducted for the position of 
